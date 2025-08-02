@@ -1,6 +1,9 @@
 import React from "react";
 import styles from "./AuthLayout.module.css";
 import { Link } from "react-router-dom";
+import scooterImg from "../../assets/auth_page/Saly-3.png";
+import floatingPersonImg from "../../assets/auth_page/Saly-2 (1).png";
+
 
 export default function AuthLayout({
   children,
@@ -12,12 +15,13 @@ export default function AuthLayout({
   return (
     <div className={styles.container}>
       <div className={styles.leftSection}>
-        <img src="src/assets/auth_page/Saly-3.png" alt="Scooter Illustration" />
+        <img src={scooterImg} alt="Scooter Illustration" />
       </div>
 
       <div className={styles.rightSection}>
         <img
-          src="src\assets\auth_page\Saly-2 (1).png"
+          src={floatingPersonImggit status
+}
           alt="Floating Person"
           className={styles.floatingImage}
         />

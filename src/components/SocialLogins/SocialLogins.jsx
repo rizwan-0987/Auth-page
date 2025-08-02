@@ -20,6 +20,8 @@
 import React from "react";
 import styles from "./SocialLogins.module.css";
 import { useAuth0 } from "@auth0/auth0-react";
+import googleLogo from "../../assets/auth_page/google.svg";
+import facebookLogo from "../../assets/auth_page/Facebook.svg";
 
 export default function SocialLogins() {
   const { loginWithRedirect } = useAuth0();
@@ -37,7 +39,7 @@ export default function SocialLogins() {
           }
         >
           <img
-            src="src\assets\auth_page\google.svg"
+            src={googleLogo}
             alt="Google"
             className={styles.icon}
           />
@@ -52,7 +54,7 @@ export default function SocialLogins() {
           }
         >
           <img
-            src="src\assets\auth_page\Facebook.svg"
+            src={facebookLogo}
             alt="Facebook"
             className={styles.icon}
           />

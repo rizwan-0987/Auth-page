@@ -20,8 +20,7 @@ export default function AuthLayout({
 
       <div className={styles.rightSection}>
         <img
-          src={floatingPersonImggit status
-}
+          src={floatingPersonImg}
           alt="Floating Person"
           className={styles.floatingImage}
         />

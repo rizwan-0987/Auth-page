@@ -1,0 +1,30 @@
+.form {
+  display: flex;
+  flex-direction: column;
+  gap: .5rem;
+}
+
+.row {
+  display: flex;
+  gap: 1rem;
+}
+
+
+.row > div {
+  flex: 1;
+   min-width: 0;
+}
+
+.extra {
+ 
+  text-align: right;
+}
+
+.extra a {
+  font-size: 10px;
+  color: #d68a00;
+  text-decoration: none;
+}
+button{
+    margin-top: 10px;
+}

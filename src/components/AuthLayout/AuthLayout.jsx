@@ -12,12 +12,12 @@ export default function AuthLayout({
   return (
     <div className={styles.container}>
       <div className={styles.leftSection}>
-        <img src="public\auth_page\Saly-3.png" alt="Scooter Illustration" />
+        <img src="src/assets/auth_page/Saly-3.png" alt="Scooter Illustration" />
       </div>
 
       <div className={styles.rightSection}>
         <img
-          src="public\auth_page\Saly-2 (1).png"
+          src="src\assets\auth_page\Saly-2 (1).png"
           alt="Floating Person"
           className={styles.floatingImage}
         />

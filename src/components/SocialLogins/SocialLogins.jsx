@@ -36,7 +36,11 @@ export default function SocialLogins() {
             })
           }
         >
-          <img src="public/auth_page/google.svg" alt="Google" className={styles.icon} />
+          <img
+            src="src\assets\auth_page\google.svg"
+            alt="Google"
+            className={styles.icon}
+          />
           Google
         </button>
         <button
@@ -48,7 +52,7 @@ export default function SocialLogins() {
           }
         >
           <img
-            src="public/auth_page/Facebook.svg"
+            src="src\assets\auth_page\Facebook.svg"
             alt="Facebook"
             className={styles.icon}
           />
